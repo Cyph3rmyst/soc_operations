@@ -2,7 +2,7 @@
 
 Its geared towards practisi g cybersecurity safely in vms and also learn
 system administration, networking basics, and the deployment of security tools.
-and also:
+and also :
 
 - Installing and configuring operating systems
 
@@ -12,19 +12,16 @@ and also:
 
 - Understanding how attackers and defenders interact in a network
 
-# Tools used:
+### Tools used:
 
-- VirtualBox : 
- a free virtualization tools that let you run multiple operating systems on one computer.
+- VirtualBox :
+  a free virtualization tools that let you run multiple operating systems on one computer.
 
 - K@li Linux:
- A popular operating system for security testing and learning offensive techniques.
+  A popular operating system for security testing and learning offensive techniques.
 
 - Ubuntu Server:
- A lightweight Linux system for practicing server security.
+  A lightweight Linux system for practicing server security.
 
 - Windows 10:
- Most companies use Windows systems, so practicing Windows security monitoring is essential.
-
-
-
+  Most companies use Windows systems, so practicing Windows security monitoring is essential.

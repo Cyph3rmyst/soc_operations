@@ -90,9 +90,3 @@ _Ensures Windows automatically restarts the audio engine if the driver drops out
 7. Repeat the exact same steps for **Windows Audio Endpoint Builder**.
 
 _Verification:_ If an audio service crashes or becomes idle, Windows will instantly restore speaker functionality without requiring a reboot or driver update.
-
-F!iSc*RnMx$uR^xGC*63
-(F!iSc*RnMx$uR^xGC*63)
-
-rather penalty trip neither rule inquiry
-hill tower million bean model aisle
