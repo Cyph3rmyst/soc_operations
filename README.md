@@ -31,7 +31,7 @@ Each project folder follows a standardized documentation and evidence structure:
 ├── 🖼️ case-evidence.png
 └── 🗂️ <case_artifact> // e.g. .pcap, .log samples
 
-_Note: Every project entry includes comprehensive reporting and in-depth research and around 25 cases of projects_
+_Note: Every project entry includes comprehensive reporting and in-depth research and around 15 cases of projects_
 
 ## 1. LEARNING PLATFORMS
 
