@@ -1,99 +1,94 @@
-Here is a clean, well-aligned Markdown layout that matches the uniform style of your main README—without any weird AI formatting, bloated tables, or over-engineered visual fluff.
+# 🛡️ SOC Operations 🛡️
 
-```markdown
-# 🛡️ SOC Operations
+**Main Goal:**
 
-### Main Goal
+- Combining investigative curiosity with an attacker mindset to answer one fundamental question: _"Is this activity normal, or is this an attack?"_
 
-Combining investigative curiosity with an attacker mindset to answer one fundamental question: _"Is this activity normal, or is this an attack?"_
+## CAREER PROGRESSION
 
----
+The objective of this repository is to systematically advance defensive security skills through progressive stages and later venture in offensive security:
 
-## 📈 Career Progression
+📌 SOC L1
 
-The objective of this repository is to systematically advance defensive security skills through progressive stages:
+|
 
-`SOC L1` ➔ `SOC L2` ➔ `Digital Forensics` ➔ `Offensive Security`
+📌 SOC L2
+
+|
+
+📌 Digital Forensics
+
+|
+
+📌 Offensive Security
 
 ### Repository Structure
 
 Each project folder follows a standardized documentation and evidence structure:
-```
 
 📁 project-name/
-├── 📄 case-.md
+├── 📄 case-<date-of-analysis>.md
 ├── 🖼️ case-evidence.png
-└── 🗂️ <case_artifact> # e.g., .pcap, .log samples
+└── 🗂️ <case_artifact> // e.g. .pcap, .log samples
 
-```
+_Note: Every project entry includes comprehensive reporting and in-depth research and around 25 cases of projects_
 
-> **Note:** Every project entry includes comprehensive reporting and in-depth research, targeting ~25 documented cases per domain.
-
----
-
-## 1. 🎓 Learning Platforms
+## 1. LEARNING PLATFORMS
 
 Resources are intentionally curated to maximize skill acquisition with zero waste:
 
-- **TryHackMe:** Foundational entry path covering core SOC L1 & SOC L2 competencies.
-- **LetsDefend:** Dedicated SOC analyst training structured from core courses to hands-on challenges and live SOC simulations. Includes specialized paths in malware analysis, forensics, and reverse engineering.
-- **CyberDefenders:** Advanced digital forensics (network, memory, disk), malware analysis, and threat intelligence for SOC L1/L2 workflows *(Includes free Blueyard Labs access)*.
-- **Blue Team Labs Online (BTLO):** Practical labs focusing on digital forensics, reverse engineering, threat hunting, and SOC operations.
-- **KC7:** Gamified learning tracks for real-world SOC L1 & SOC L2 scenarios.
-- **Boss of the SOC (BOTS):** Jeopardy-style CTF simulations using Splunk to hunt APTs across enterprise environments.
+- **TryHackMe** — Foundational entry path covering core SOC L1 & SOC L2 competencies.
 
----
+- **LetsDefend** — Dedicated SOC analyst training structured from core courses to hands-on challenges and live practice.SOC simulator and other additional learning paths in malware analysis,forensics and reverse engineering.
 
-## 2. 🚀 Projects
+- **CyberDefenders** — Advanced digital forensics (network, memory, disk), malware analysis, and threat intelligence.In addition to Soc L1 and L2 work _(Includes free Blueyard Labs access)._
 
-Projects provide a structured framework where practical work from learning platforms is applied, tested, and documented.
+- **Blue Team Labs Online (BTLO)** — Practical labs focusing on digital forensics, reverse engineering, threat hunting, and SOC operations.
 
-### 🏷️ 01. Home Lab Setup
-Configuration, architecture, and network topology.
+- **KC7** — Gamified learning tracks for real-world SOC L1 & SOC L2 scenarios.
 
-- **SIEM & Analysis Lab:**
-  - **Host OS:** Ubuntu Linux
-  - **Target:** Windows 10
-  - **Attacker Simulation:** Kali Linux
-- **Malware Analysis Lab:**
-  - **REMnux:** Dedicated Linux distribution for reverse engineering.
-  - **FLARE VM:** Windows 10 distribution tailored for malware analysis.
+- **Boss of the SOC (BOTS)** — Jeopardy-style CTF simulations reflecting realistic incidents in enterprise environments.Using splunk to hunt APTs
 
-### 🏷️ 02. SIEM Setup & Configurations
-Deployment, custom rule tuning, and log ingestion.
+## 2. PROJECTS
 
-### 🏷️ 03. Traffic Analysis
-Deep-dive packet captures (`.pcap`) and network anomaly detection.
+Projects provide a structured framework where all practical work from learning platforms is applied and documented.
 
-### 🏷️ 04. Log Analysis
-Windows Event Logs, Sysmon, and Linux authentication logs.
+1. 🏷️ **Home Lab Setup
+   ** — Configuration, architecture, and network topology.
 
-### 🏷️ 05. Vulnerability Analysis
-Identification, vulnerability scanning, and remediation tracking.
+- **SIEM & Analysis Lab**
+    - **Host OS:** Ubuntu Linux
+    - **Target:** Windows 10
+    - **Attacker Simulation:** Kali Linux
 
-### 🏷️ 06. Malware Analysis
-Dissecting real-world samples (e.g., Agent Tesla).
+- **Malware Analysis Lab**
+    - **REMnux:** Dedicated Linux distribution for malware analysis.
+    - **FLARE VM:** Open-source Windows 10 distribution tailored for malware and reverse engineering.
 
-### 🏷️ 07. Threat Intelligence Reports
-Researching active threat actors and nation-state groups (e.g., APT38).
+- 🏷️ **02. SIEM Setup & Configurations** — Deployment, rule tuning, and log ingestion.
 
-### 🏷️ 08. Incident Response Playbooks
-Standardized response workflows for containment, eradication, and recovery.
+- 🏷️ **03. Traffic Analysis** — Deep-dive packet captures (.pcap) and network anomaly detection.
 
-### 🏷️ 09. Phishing Analysis
-Email header inspection, URL detonation, and payload extraction.
+- 🏷️ **04. Log Analysis** — Windows Event Logs, Sysmon, and Linux authentication logs.
 
-### 🏷️ 10. End-to-End Investigations
-Comprehensive workflows combining all lab disciplines:
+- 🏷️ **05. Vulnerability Analysis** — Identification, scanning, and remediation tracking.
+
+- 🏷️ **06. Malware Analysis** — Dissecting real-world samples (e.g. Agent Tesla).
+
+- 🏷️ **07. Threat Intelligence Reports** — Researching active threat groups (e.g., APT38).
+
+- 🏷️ **08. Incident Response Playbooks** — Standardized response workflows for containment and eradication.
+
+- 🏷️ **09. Phishing Analysis** — Email header inspection, URL detonation, and payload extraction.
+
+- 🏷️ **10. End-to-End Investigations** — Comprehensive workflows combining all lab disciplines:
+    // mostly complete lab work.
 - Alert Triage & Reporting
-- Malware Analysis & Reverse Engineering
+- Malware Analysis & Reverse Eng.
 - Alert Escalation
 - Digital Forensics (DFIR)
 - Phishing & Log Analysis
 - Threat Intelligence Integration
 - Threat Hunting
 
-### 🏷️ 11. Defensive CTFs
-Documented challenges from platforms like HackTheBox (e.g., Holmes CTF).
-
-```
+- 🏷️ **11. Defensive CTFs** — Documented challenges from platforms like HackTheBox (e.g., Holmes CTF).
