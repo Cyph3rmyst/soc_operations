@@ -1,5 +1,7 @@
 # Source of PCAP:
-    Malware-Traffic-Analysis.net
+
+Malware-Traffic-Analysis.net
+
 # File Name:
 
  2026-02-28 EASY as 123
@@ -18,7 +20,7 @@ infected_20260228
 
 - Domain Controller:
     EASYAS-DC
-    
+
 - AD Environment Name:
     EASYAS123
 
@@ -40,28 +42,27 @@ infected_20260228
 
 
 - Infection Time:
-    2026-02-28
-    @ 19:55 UTC
 
 
-#   OBJECTIVES 
+
+#   OBJECTIVES
 
 Malware Name:NetSupport Manager RAT
 
 
-1. What is the IP of the infected Windows client?
-    10.2.28.88
+1. The IP of the infected Windows client:
+    *10.2.28.88*
 
-2.What is the MAC address of the infected windows client?
-    00:19:d1:b2:4d:ad
+2. The MAC address of the infected windows client:
+    *00:19:d1:b2:4d:ad*
 
-3.What is the user account name of the infected windows client?
-    brolf
+3. The user account name of the infected windows client:
+    *00:19:d1:b2:4d:ad*
 
 
 
-4.What is the full name of the user from the infected windows user account?
-    Becka Rolf
+4. The full name of the user from the infected windows user account:
+    *Becka Rolf*
 
 
 # ANALYSIS
@@ -104,7 +105,7 @@ We idetify the CNameString as "brolf" which our client user's account name
 
 - brolf
 
-- Full Username of the user 
+- Full Username of the user
 
 Here i used Packet Find option and some port filtering which led me to port "tcp.port == 59988" and in tcp.stream eq 9 i found the full username of the user as
 
