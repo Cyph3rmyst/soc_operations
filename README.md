@@ -8,6 +8,40 @@ My focus is on developing the practical skills needed to investigate security al
 
 ---
 
+📁 Repository Structure
+
+Every folder follows one naming rule so the repo is easy to browse on GitHub: `NN-lowercase-kebab-case`. The number controls display order and the name describes the contents. Nested items use the same rule (`case-0x01`). Placeholder topic folders include a short `README.md` so Git tracks them and GitHub displays them.
+
+| # | Folder | What it holds |
+|---|--------|---------------|
+| 01 | [`01-home-lab-with-virtual-machines/`](01-home-lab-with-virtual-machines/) | Virtual lab build — 3 VMs, diagram, IP plan |
+| 02 | [`02-siem-tool-setup/`](02-siem-tool-setup/) | Splunk / ELK setup, dashboards, alerts |
+| 03 | [`03-malware-analysis-sandbox/`](03-malware-analysis-sandbox/) | Safe sandbox setup and malware reports |
+| 04 | [`04-phishing-detection-system/`](04-phishing-detection-system/) | Email header/static/dynamic analysis |
+| 05 | [`05-log-analysis-real-datasets/`](05-log-analysis-real-datasets/) | Investigation write-ups from real log data |
+| 06 | [`06-incident-response-playbook/`](06-incident-response-playbook/) | IR playbooks and response procedures |
+| 07 | [`07-network-traffic-monitoring/`](07-network-traffic-monitoring/) | Traffic capture and monitoring reports |
+| 08 | [`08-vulnerability-assessment/`](08-vulnerability-assessment/) | Scanning, findings, and remediation report |
+| 09 | [`09-threat-intelligence-reports/`](09-threat-intelligence-reports/) | Threat intel and actor/profile reports |
+| 10 | [`10-security-investigation-documentation/`](10-security-investigation-documentation/) | Full end-to-end investigations |
+| 11 | [`11-network-analysis/`](11-network-analysis/) | 15 case-based PCAP investigations (`case-0x01` → `case-0x15`) |
+| 12 | [`12-learning-notes/`](12-learning-notes/) | LetsDefend SOC Analyst path — 25 numbered sections + templates |
+| 13 | [`13-cloud-forensics/`](13-cloud-forensics/) | Placeholder — cloud environment investigations |
+| 14 | [`14-detection-engineering/`](14-detection-engineering/) | Placeholder — Sigma/YARA/Splunk detection rules |
+| 15 | [`15-endpoint-forensics/`](15-endpoint-forensics/) | Placeholder — host and memory investigations |
+| 16 | [`16-malware-analysis/`](16-malware-analysis/) | Placeholder — static/dynamic malware deep-dives |
+| 17 | [`17-network-forensics/`](17-network-forensics/) | Placeholder — network forensics deep-dives |
+| 18 | [`18-threat-hunting/`](18-threat-hunting/) | Placeholder — hypothesis-driven hunts |
+| 19 | [`19-threat-intelligence/`](19-threat-intelligence/) | Placeholder — CTI reports and IOC collections |
+
+Progress:
+
+- [ ] 01–10 Hands-on projects (0/10)
+- [ ] 11 Network Analysis cases (0/15)
+- [ ] 12 LetsDefend learning path (0/25)
+
+---
+
 🎯 Career Objective
 
 To develop the technical and analytical skills required for an entry-level SOC Analyst role, with a focus on:
