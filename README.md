@@ -73,6 +73,7 @@ Deploying Wazuh with Windows endpoints to collect security telemetry, monitor ev
 
 ## Connect
 
-- **LinkedIn:** [link](!https://tinyurl.com/3zxjc26p)
+- **LinkedIn:** https://tinyurl.com/3zxjc26p
     
-- **Blog:** [link](https://tinyurl.com/4fcpxnz3)
+- **Blog:** https://tinyurl.com/4fcpxnz3
+
