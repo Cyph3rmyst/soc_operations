@@ -1,237 +1,236 @@
-🛡️ SOC Analyst Portfolio
+# SOC Analyst Portfolio
 
-Aspiring SOC Analyst | Security Monitoring | Alert Triage | Incident Investigation
+**Aspiring SOC Analyst | Security Monitoring | Alert Triage | Incident Investigation**
 
-Welcome to my cybersecurity portfolio. This repository showcases my hands-on journey toward becoming a Security Operations Center (SOC) Analyst Level 1 through practical projects, security investigations, and technical documentation.
+Welcome to my cybersecurity portfolio.
 
-My focus is on developing the practical skills needed to investigate security alerts, analyze logs, identify suspicious activity, correlate evidence, and document incidents clearly.
+This repository documents my practical journey toward becoming a SOC Analyst. It contains hands-on projects, security investigations, technical notes, and documentation focused on real-world Security Operations Center (SOC) activities.
 
----
-
-📁 Repository Structure
-
-Every folder follows one naming rule so the repo is easy to browse on GitHub: `NN-lowercase-kebab-case`. The number controls display order and the name describes the contents. Nested items use the same rule (`case-0x01`). Placeholder topic folders include a short `README.md` so Git tracks them and GitHub displays them.
-
-| # | Folder | What it holds |
-|---|--------|---------------|
-| 01 | [`01-home-lab-with-virtual-machines/`](01-home-lab-with-virtual-machines/) | Virtual lab build — 3 VMs, diagram, IP plan |
-| 02 | [`02-siem-tool-setup/`](02-siem-tool-setup/) | Splunk / ELK setup, dashboards, alerts |
-| 03 | [`03-malware-analysis-sandbox/`](03-malware-analysis-sandbox/) | Safe sandbox setup and malware reports |
-| 04 | [`04-phishing-detection-system/`](04-phishing-detection-system/) | Email header/static/dynamic analysis |
-| 05 | [`05-log-analysis-real-datasets/`](05-log-analysis-real-datasets/) | Investigation write-ups from real log data |
-| 06 | [`06-incident-response-playbook/`](06-incident-response-playbook/) | IR playbooks and response procedures |
-| 07 | [`07-network-traffic-monitoring/`](07-network-traffic-monitoring/) | Traffic capture and monitoring reports |
-| 08 | [`08-vulnerability-assessment/`](08-vulnerability-assessment/) | Scanning, findings, and remediation report |
-| 09 | [`09-threat-intelligence-reports/`](09-threat-intelligence-reports/) | Threat intel and actor/profile reports |
-| 10 | [`10-security-investigation-documentation/`](10-security-investigation-documentation/) | Full end-to-end investigations |
-| 11 | [`11-network-analysis/`](11-network-analysis/) | 15 case-based PCAP investigations (`case-0x01` → `case-0x15`) |
-| 12 | [`12-learning-notes/`](12-learning-notes/) | LetsDefend SOC Analyst path — 25 numbered sections + templates |
-| 13 | [`13-cloud-forensics/`](13-cloud-forensics/) | Placeholder — cloud environment investigations |
-| 14 | [`14-detection-engineering/`](14-detection-engineering/) | Placeholder — Sigma/YARA/Splunk detection rules |
-| 15 | [`15-endpoint-forensics/`](15-endpoint-forensics/) | Placeholder — host and memory investigations |
-| 16 | [`16-malware-analysis/`](16-malware-analysis/) | Placeholder — static/dynamic malware deep-dives |
-| 17 | [`17-network-forensics/`](17-network-forensics/) | Placeholder — network forensics deep-dives |
-| 18 | [`18-threat-hunting/`](18-threat-hunting/) | Placeholder — hypothesis-driven hunts |
-| 19 | [`19-threat-intelligence/`](19-threat-intelligence/) | Placeholder — CTI reports and IOC collections |
-
-Progress:
-
-- [ ] 01–10 Hands-on projects (0/10)
-- [ ] 11 Network Analysis cases (0/15)
-- [ ] 12 LetsDefend learning path (0/25)
+My goal is to develop practical skills in security monitoring, log analysis, threat detection, incident investigation, and response.
 
 ---
 
-🎯 Career Objective
+## Repository Structure
 
-To develop the technical and analytical skills required for an entry-level SOC Analyst role, with a focus on:
+The repository is organized into numbered folders to make projects and learning materials easy to navigate.
 
-- Security Information and Event Management (SIEM)
-- Security alert triage and investigation
-- Windows Event Logs and endpoint monitoring
-- Phishing email analysis
-- Network traffic and packet analysis
-- Threat detection and investigation
-- Incident documentation and escalation
-- MITRE ATT&CK framework mapping
+### Projects and Labs
 
----
+- **01 - Home Lab with Virtual Machines:** Building a virtual environment for cybersecurity labs and security testing.
+- **02 - SIEM Tool Setup:** Installing and configuring SIEM platforms, dashboards, and alerts.
+- **03 - Malware Analysis Sandbox:** Setting up an isolated environment for safe malware analysis.
+- **04 - Phishing Detection System:** Investigating suspicious emails, headers, and phishing indicators.
+- **05 - Log Analysis with Real Datasets:** Analyzing security logs and investigating suspicious activity.
+- **06 - Incident Response Playbook:** Documenting incident handling procedures and response workflows.
+- **07 - Network Traffic Monitoring:** Capturing and analyzing network traffic.
+- **08 - Vulnerability Assessment:** Identifying vulnerabilities and documenting remediation recommendations.
+- **09 - Threat Intelligence Reports:** Researching threats, threat actors, and indicators of compromise.
+- **10 - Security Investigation Documentation:** Documenting complete security investigations.
+- **11 - Network Analysis:** Conducting 15 case-based PCAP investigations using network analysis tools.
 
-🔬 Featured Projects
+### Learning and Specialization
 
-01. 🖥️ Mini SOC Monitoring Lab
+- **12 - Learning Notes:** Documenting my LetsDefend SOC Analyst learning path, including 25 sections and practical notes.
+- **13 - Cloud Forensics:** Exploring cloud security investigations and forensic techniques.
+- **14 - Detection Engineering:** Developing and testing Sigma, YARA, and SIEM detection rules.
+- **15 - Endpoint Forensics:** Investigating endpoint artifacts and memory evidence.
+- **16 - Malware Analysis:** Exploring static and dynamic malware analysis.
+- **17 - Network Forensics:** Investigating network-based security incidents.
+- **18 - Threat Hunting:** Performing hypothesis-driven threat hunts.
+- **19 - Threat Intelligence:** Developing threat intelligence reports and collecting IOCs.
 
-Focus: Security monitoring and SIEM deployment
+### Repository Progress
 
-Building a security monitoring environment using Wazuh SIEM and a Windows endpoint to collect security logs and investigate alerts.
-
-Planned deliverables:
-
-- Lab architecture and setup documentation
-- Endpoint log collection
-- SIEM dashboards and alert evidence
-- Monitoring environment documentation
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-02. 🚨 SIEM Alert Triage and Authentication Investigations
-
-Focus: Alert triage and authentication monitoring
-
-A collection of 10 investigations involving authentication and account-related alerts, including suspicious login patterns and potential account compromise.
-
-Planned deliverables:
-
-- 10 documented investigations
-- SIEM queries and alert evidence
-- Investigation conclusions
-- False-positive analysis and escalation decisions
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-03. 📧 Phishing Email Investigation Casebook
-
-Focus: Email security and phishing analysis
-
-Five investigations using safe sample emails or public training datasets to assess potentially malicious emails and distinguish phishing from legitimate activity.
-
-Planned deliverables:
-
-- Five documented email investigations
-- Email evidence and indicators of compromise (IOCs)
-- Investigation verdicts
-- Recommended actions
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-04. 🌐 Network Traffic and PCAP Investigations
-
-Focus: Network security analysis
-
-Five investigations using Wireshark and public packet-capture datasets to examine suspicious network activity.
-
-Planned deliverables:
-
-- Five documented investigations
-- Packet analysis evidence
-- Relevant Wireshark filters
-- Findings and investigation reports
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-05. 💻 Endpoint Threat Investigation and Detection
-
-Focus: Endpoint telemetry and threat detection
-
-Five investigations using Windows Event Logs and Sysmon telemetry to investigate suspicious endpoint behavior and develop custom SIEM detections.
-
-Planned deliverables:
-
-- Five endpoint investigations
-- Relevant event-log evidence
-- Custom detection rules
-- Detection testing results
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-06. 🔎 Realistic Multi-Source Security Investigation
-
-Focus: Log correlation and incident investigation
-
-Five investigations using realistic public security datasets, correlating multiple evidence sources such as endpoint events, authentication logs, and network telemetry.
-
-Planned deliverables:
-
-- Five multi-source investigations
-- Correlated event timelines
-- Evidence-based findings
-- Investigation reports
-
-Potential data sources:
-
-- "OTRF Security Datasets" (https://github.com/OTRF/Security-Datasets)
-- "Splunk Boss of the SOC v3" (https://github.com/splunk/botsv3)
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
-
-07. 🏆 End-to-End SOC Incident Response Capstone
-
-Focus: Complete security investigation and incident response
-
-Six comprehensive investigations combining SIEM alerts, endpoint evidence, network telemetry, and incident response documentation.
-
-Planned deliverables:
-
-- Six end-to-end investigations
-- Incident timelines and evidence records
-- Severity assessments and escalation decisions
-- Incident reports and response recommendations
-- Relevant MITRE ATT&CK mappings
-- Lessons learned and detection improvements
-
-Reference: "MITRE ATT&CK" (https://attack.mitre.org/)
-
-🔗 Project: "View Repository" (YOUR-REPOSITORY-LINK)
+- [ ] Projects 01–10: 0/10 completed
+- [ ] Network Analysis: 0/15 cases completed
+- [ ] LetsDefend Learning Path: 0/25 sections completed
 
 ---
 
-🧰 Tools and Technologies
+## Featured Projects
 
-Category| Tools
-SIEM| Wazuh
-Endpoint monitoring| Windows Event Logs, Sysmon
-Network analysis| Wireshark
-Threat framework| MITRE ATT&CK
-Investigation data| Public security datasets
-Documentation| Markdown, Git, GitHub
+The following projects represent my main practical learning objectives.
 
-Tools and technologies listed here represent my project toolkit; my proficiency will be demonstrated through the linked work.
+### 1. Mini SOC Monitoring Lab
+
+**Focus:** SIEM deployment and security monitoring.
+
+Building a small SOC environment using Wazuh SIEM and Windows endpoints to collect security events, monitor activity, and investigate security alerts.
+
+Planned work:
+- Configure the lab environment.
+- Connect Windows endpoints to Wazuh.
+- Collect and monitor security events.
+- Investigate generated alerts.
+- Document dashboards, configurations, and findings.
+
+### 2. SIEM Alert Triage and Authentication Investigations
+
+**Focus:** Alert analysis and authentication monitoring.
+
+A collection of 10 investigations focused on identifying suspicious authentication activity, unusual login patterns, and potential account compromise.
+
+Planned work:
+- Investigate authentication alerts.
+- Analyze Windows security events.
+- Identify suspicious login behavior.
+- Distinguish false positives from potential threats.
+- Document investigation findings and escalation decisions.
+
+### 3. Phishing Email Investigation Casebook
+
+**Focus:** Email security and phishing detection.
+
+A collection of five investigations examining suspicious emails to identify phishing attempts and malicious indicators.
+
+Planned work:
+- Analyze email headers and sender information.
+- Examine URLs, domains, and attachments.
+- Identify indicators of compromise (IOCs).
+- Determine whether emails are malicious or legitimate.
+- Document findings and recommended actions.
+
+### 4. Network Traffic and PCAP Investigations
+
+**Focus:** Network traffic analysis.
+
+A collection of five investigations using Wireshark and publicly available PCAP datasets to identify suspicious network activity.
+
+Planned work:
+- Analyze packet captures.
+- Investigate suspicious connections.
+- Examine network protocols and communication patterns.
+- Apply relevant Wireshark filters.
+- Document findings and supporting evidence.
+
+### 5. Endpoint Threat Investigation and Detection
+
+**Focus:** Endpoint monitoring and threat detection.
+
+A collection of five investigations using Windows Event Logs and Sysmon to examine suspicious endpoint activity.
+
+Planned work:
+- Analyze Windows security events.
+- Investigate suspicious process execution.
+- Examine endpoint activity using Sysmon.
+- Develop custom detection rules.
+- Test and document detection results.
+
+### 6. Multi-Source Security Investigations
+
+**Focus:** Log correlation and incident investigation.
+
+A collection of five investigations using realistic security datasets to correlate evidence from multiple sources.
+
+Planned work:
+- Analyze authentication and endpoint logs.
+- Correlate network and host activity.
+- Build incident timelines.
+- Identify suspicious behavior.
+- Document evidence-based conclusions.
+
+Potential datasets:
+- [OTRF Security Datasets](https://github.com/OTRF/Security-Datasets)
+- [Splunk Boss of the SOC v3](https://github.com/splunk/botsv3)
+
+### 7. SOC Incident Response Capstone
+
+**Focus:** End-to-end security investigation and incident response.
+
+A collection of six comprehensive investigations combining SIEM alerts, endpoint telemetry, network evidence, and incident response procedures.
+
+Planned work:
+- Investigate security incidents from initial alert to conclusion.
+- Correlate evidence from multiple sources.
+- Build detailed incident timelines.
+- Assess incident severity and impact.
+- Map findings to the MITRE ATT&CK framework.
+- Document response recommendations and lessons learned.
+
+Reference:
+- [MITRE ATT&CK](https://attack.mitre.org/)
 
 ---
 
-📊 Portfolio Roadmap
+## Tools and Technologies
 
-Project| Target investigations| Status
-Mini SOC Monitoring Lab| 0 standalone| 🔄 Planned
-SIEM Alert Triage| 10| 🔄 Planned
-Phishing Casebook| 5| 🔄 Planned
-Network / PCAP Analysis| 5| 🔄 Planned
-Endpoint Investigation| 5| 🔄 Planned
-Multi-Source Investigation| 5| 🔄 Planned
-SOC Capstone| 6| 🔄 Planned
-Total| 36| In progress
+The tools used across my projects include:
 
-Project statuses will be updated as the work is completed and documented.
+**SIEM and Security Monitoring**
+- Wazuh
+- Splunk
 
----
+**Endpoint Monitoring**
+- Windows Event Logs
+- Sysmon
 
-📁 Investigation Documentation
+**Network Analysis**
+- Wireshark
 
-Each investigation will be documented with relevant information, such as:
+**Threat Detection and Intelligence**
+- MITRE ATT&CK
+- Sigma
+- YARA
 
-- Case objective and scope
-- Data sources and supporting evidence
-- Investigation findings
-- Conclusion and confidence level
-- Recommended actions or escalation
-- Limitations and lessons learned
+**Documentation and Version Control**
+- Markdown
+- Git
+- GitHub
 
-The exact documentation will vary according to the project and the available evidence.
+Tools are introduced and applied as needed throughout the projects. Practical implementations and investigation reports will demonstrate my experience with them.
 
 ---
 
-🔐 Responsible Security Practice
+## Portfolio Roadmap
 
-All projects will use authorized lab environments, safe sample data, or publicly available datasets permitted for analysis.
+My current roadmap consists of seven main projects and 36 planned investigations.
 
-No unauthorized access, testing against third-party systems, or disclosure of confidential information is intended.
+- Mini SOC Monitoring Lab — Environment setup and monitoring.
+- SIEM Alert Triage — 10 investigations.
+- Phishing Investigation Casebook — 5 investigations.
+- Network Traffic Analysis — 5 investigations.
+- Endpoint Threat Investigation — 5 investigations.
+- Multi-Source Security Investigations — 5 investigations.
+- SOC Incident Response Capstone — 6 investigations.
+
+**Total: 36 planned investigations.**
+
+Project progress will be updated as investigations are completed and documented.
 
 ---
 
-📫 Connect
+## Investigation Documentation
 
-- LinkedIn: <>
+Each investigation will include relevant information such as:
+
+- Investigation objective and scope.
+- Data sources and supporting evidence.
+- Tools and techniques used.
+- Analysis and findings.
+- Investigation conclusion.
+- Confidence level.
+- Recommended actions or escalation.
+- Lessons learned.
+
+Documentation will be based on the available evidence and the scope of each investigation.
 
 ---
 
-This portfolio documents my ongoing development toward an entry-level SOC Analyst role. Each project will be updated with completed work, evidence, and findings as it progresses.
+## Responsible Security Practice
+
+All projects are conducted using authorized lab environments, safe sample data, and publicly available datasets.
+
+My work focuses on ethical security research, defensive security operations, and responsible investigation practices.
+
+No unauthorized access or testing against third-party systems is intended.
+
+---
+
+## Connect
+
+- **LinkedIn:** [Add your LinkedIn profile]
+- **GitHub:** [Your GitHub profile]
+
+---
+
+*This portfolio is a continuous record of my development as an aspiring SOC Analyst. Projects and investigations will be updated as practical work is completed.*
